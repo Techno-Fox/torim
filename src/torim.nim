@@ -239,7 +239,6 @@ proc connect*(s: ProxySocket, address: string, port: Port) =
   p[0] = cast[char](port.uint16 shr 8)
   p[1] = cast[char](port)
 
-  echo "Connecting through tor"
   s.inner.send("\x05\x01\x00\x03" & address.len.char & address & p)
 
 proc send*(s: ProxySocket; data: pointer; size: int): int = 
