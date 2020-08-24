@@ -3,9 +3,6 @@ Updated version of tor.nim from original of tor.nim from https://github.com/Fede
 
 == Tor helper for Nim
 
-image:https://img.shields.io/badge/status-alpha-orange.svg[badge]
-image:https://img.shields.io/badge/License-MPL%20v2.0-blue.svg[License]
-
 ### Features
 
 * Wrap sockets to use the SOCKS proxy provided by Tor
