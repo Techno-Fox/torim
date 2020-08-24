@@ -1,7 +1,7 @@
 
 import unittest
 
-import tor
+import torim
 
 suite "functional - client":
   test "client":
